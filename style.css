@@ -3,6 +3,10 @@ body {
     background-color: #010409;
 }
 
+main {
+    display: flex;
+}
+
 .content {
     background-color: #0d1117;
     border-radius: 20px;
@@ -35,11 +39,17 @@ body {
         margin: 100px;
     }
 
-    main {
-        display: flex;
-    }
-
     .content {
         width: 70%;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column-reverse;
     }
 }
