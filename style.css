@@ -1,22 +1,12 @@
 body {
     color: #ffffff;
     background-color: #010409;
-    margin: 100px;
-}
-
-main {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
 }
 
 .content {
     background-color: #0d1117;
     border-radius: 20px;
     padding: 30px;
-    max-width: 730px;
 }
 
 .skill {
@@ -26,11 +16,21 @@ main {
     padding: 5px;
 }
 
-span {
-    white-space: pre;
+.avatar {
+    margin: 10%;
+    border-radius: 50%;
 }
 
-.avatar {
-    margin-left: 50px;
-    border-radius: 50%;
+@media (min-width: 1000px) {
+    body {
+        margin: 100px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    .content {
+        width: 70%;
+    }
 }
