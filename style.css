@@ -29,6 +29,11 @@ main {
     padding: 0px 10px;
 }
 
+.contacts {
+    padding-left: 0;
+    list-style: none;
+}
+
 .avatar {
     margin: 0 10%;
     border-radius: 50%;
